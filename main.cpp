@@ -195,7 +195,8 @@ int main() {
             }
             show(board, pos);
             getch();
-            reset(board, pos, title, oturn);
+            if(!turn) reset(board, pos, title, oturn);
+            else reset(board, pos, title, xturn);
         }
         else {
             if(turn==0) {
