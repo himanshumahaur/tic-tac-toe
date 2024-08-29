@@ -41,6 +41,7 @@ This is a console-based implementation of the classic Tic-Tac-Toe game written i
 
 - Implementing an AI opponent for single-player mode.
 - Adding a graphical interface for improved user experience.
+- Score Tracker
 
 ## License
 
